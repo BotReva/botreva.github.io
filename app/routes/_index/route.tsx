@@ -29,9 +29,9 @@ export default function Index() {
       <Hero />
       {/*<List />
       /*<Heading text="Meet The Team" highlight="Team" />
-      <UserGrid />
+      <UserGrid />*/}
       <Heading text="Major Projects" highlight="Projects" />
-      <CardGrid />*/}
+      <CardGrid />
       <Footer logo={<Logo />} links={links} />
     </AdaptiveLayout>
   );
