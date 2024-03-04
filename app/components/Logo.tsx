@@ -1,7 +1,7 @@
 export default function Logo() {
   return (
     <>
-      <span className="highlight">REVA BOT</span>
+      <span className="highlight">REVA</span> BOT
     </>
   );
 }
