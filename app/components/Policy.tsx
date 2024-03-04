@@ -1,11 +1,11 @@
-import classes from "./Terms.module.css";
+import classes from "./Policy.module.css";
 import { Container, Title, Text, Button } from "@mantine/core";
 
-export default function CustomTerms() {
+export default function CustomPolicy() {
   return (
     <Container className={classes.container} size={1400}>
       <Title className={classes.title}>
-         Terms of Service
+         Privacy & Policy
       </Title>
       <Container p={0} size={600}>
         <Text size="lg" c="dimmed" className={classes.description}>

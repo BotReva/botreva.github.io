@@ -12,10 +12,10 @@ export const meta: MetaFunction = () => {
 };
 
 const links = [
-  { url: "/", label: "Home" },
+  { href: "/", label: "Home" },
   { url: "https://discord.gg", label: "Discord" },
-  { url: "/terms", label: "Terms of Service" },
-  { url: "/privacy-policy", label: "Privacy Policy" }
+  { href: "/terms", label: "Terms of Service" },
+  { href: "/privacy", label: "Privacy Policy" }
 ];
 
 export default function Index() {
