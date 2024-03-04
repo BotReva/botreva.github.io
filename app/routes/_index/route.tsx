@@ -30,7 +30,7 @@ export default function Index() {
       {/*<List />
       /*<Heading text="Meet The Team" highlight="Team" />
       <UserGrid />*/}
-      <Heading text="Features" highlight="Features" />
+      <Heading text="Features" /*highlight="Features"*/ />
       <CardGrid />
       <Footer logo={<Logo />} links={links} />
     </AdaptiveLayout>
