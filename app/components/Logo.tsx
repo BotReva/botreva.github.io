@@ -1,7 +1,7 @@
 export default function Logo() {
   return (
     <>
-      <span className="highlight">plexi</span>.dev
+      <span className="highlight">REVA BOT</span>
     </>
   );
 }

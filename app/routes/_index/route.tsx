@@ -16,10 +16,10 @@ export const meta: MetaFunction = () => {
 };
 
 const links = [
-  { url: "https://twitter.com/plexidev", label: "Twitter" },
-  { url: "https://youtube.com/c/truexpixels", label: "YouTube" },
-  { url: "https://github.com/plexidev", label: "GitHub" },
-  { url: "https://discord.gg/plexidev", label: "Discord" },
+  { url: "/", label: "Commands" },
+  { url: "https://youtube.com/c/truexpixels", label: "Terms of Service" },
+  { url: "https://github.com/plexidev", label: "Privacy Policy" },
+  { url: "https://discord.gg", label: "Join Support Server" },
 ];
 
 export default function Index() {

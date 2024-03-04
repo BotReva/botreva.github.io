@@ -5,11 +5,11 @@ export default function CustomHero() {
   return (
     <Container className={classes.container} size={1400}>
       <Title className={classes.title}>
-        Reva <span className="highlight">Bot</span>
+         Sebuah <span className="highlight">Discord Bot</span> Bahasa Indonesia yang anda butuhkan
       </Title>
       <Container p={0} size={600}>
         <Text size="lg" c="dimmed" className={classes.description}>
-          Sebuah bot discord bahasa Indonesia.
+          Tunggu apalagi ayo undang Reva ke server kamu!
         </Text>
       </Container>
 
