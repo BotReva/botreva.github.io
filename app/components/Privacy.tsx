@@ -1,7 +1,7 @@
-import classes from "./Policy.module.css";
+import classes from "./Privacy.module.css";
 import { Container, Title, Text, Button } from "@mantine/core";
 
-export default function CustomPolicy() {
+export default function CustomPrivacy() {
   return (
     <Container className={classes.container} size={1400}>
       <Title className={classes.title}>
