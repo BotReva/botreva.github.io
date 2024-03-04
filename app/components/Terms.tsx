@@ -6,10 +6,11 @@ export default function CustomTerms() {
     <Container className={classes.container} size={1400}>
       <Title className={classes.title}>
          Terms of Service
-         <span className="highlight">Privacy & Policy</span>
       </Title>
       <Container p={0} size={600}>
         <Text size="lg" c="dimmed" className={classes.description}>
+        <span className="highlight">Last updated: March, 05 2024</span>
+        
         Please read these terms and conditions carefully before using Our Service.
 
 Interpretation and Definitions

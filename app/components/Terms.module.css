@@ -24,6 +24,7 @@
 
 .description {
   text-align: center;
+  color: #ffffff;
 
   @media (max-width: $mantine-breakpoint-sm) {
     font-size: var(--mantine-font-size-md);
