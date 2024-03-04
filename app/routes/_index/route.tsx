@@ -12,14 +12,14 @@ import { Header } from "~/components/adaptive-ui/Layout/Header";
 import { Footer } from "~/components/adaptive-ui/Layout/Footer";
 
 export const meta: MetaFunction = () => {
-  return [{ title: "Plexi Development" }];
+  return [{ title: "Reva Bot" }];
 };
 
 const links = [
-  { url: "https://twitter.com/plexidev", label: "Twitter" },
+  /*{ url: "https://twitter.com/plexidev", label: "Twitter" },
   { url: "https://youtube.com/c/truexpixels", label: "YouTube" },
   { url: "https://github.com/plexidev", label: "GitHub" },
-  { url: "https://discord.gg/plexidev", label: "Discord" },
+  { url: "https://discord.gg/plexidev", label: "Discord" },*/
 ];
 
 export default function Index() {
@@ -27,11 +27,11 @@ export default function Index() {
     <AdaptiveLayout dots={{ seed: "gggg" }}>
       <Header logo={<Logo />} links={links} />
       <Hero />
-      <List />
-      <Heading text="Meet The Team" highlight="Team" />
+      {/*<List />
+      /*<Heading text="Meet The Team" highlight="Team" />
       <UserGrid />
       <Heading text="Major Projects" highlight="Projects" />
-      <CardGrid />
+      <CardGrid />*/}
       <Footer logo={<Logo />} links={links} />
     </AdaptiveLayout>
   );

@@ -5,19 +5,29 @@ export default function CustomHero() {
   return (
     <Container className={classes.container} size={1400}>
       <Title className={classes.title}>
-        Welcome To <span className="highlight">Plexi Development</span>
+        Reva <span className="highlight">Bot</span>
       </Title>
       <Container p={0} size={600}>
         <Text size="lg" c="dimmed" className={classes.description}>
-          We're a community of developers and students centered around creating
-          user-friendly applications and developer resources.
+          Sebuah bot discord bahasa Indonesia.
         </Text>
       </Container>
 
       <div className={classes.buttons}>
         <Button
           component="a"
-          href="https://discord.gg/plexidev"
+          href="https://discord.com/invite"
+          target="_blank"
+          rel="noopener noreferrer"
+          size="lg"
+          className={classes.button}
+        >
+          Invite
+        </Button>
+        
+        <Button
+          component="a"
+          href="https://discord.gg/revabot"
           target="_blank"
           rel="noopener noreferrer"
           size="lg"
@@ -26,18 +36,7 @@ export default function CustomHero() {
           className={classes.button}
           mr={20}
         >
-          Join our community
-        </Button>
-
-        <Button
-          component="a"
-          href="https://github.com/plexidev"
-          target="_blank"
-          rel="noopener noreferrer"
-          size="lg"
-          className={classes.button}
-        >
-          Projects
+          Join Server
         </Button>
       </div>
     </Container>
