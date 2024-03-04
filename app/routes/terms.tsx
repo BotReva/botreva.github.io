@@ -22,7 +22,7 @@ export default function Index() {
   return (
     <AdaptiveLayout dots={{ seed: "gggg" }}>
       <Header logo={<Logo />} links={links} />
-      <Hero />
+      <Terms />
       <Footer logo={<Logo />} links={links} />
     </AdaptiveLayout>
   );
