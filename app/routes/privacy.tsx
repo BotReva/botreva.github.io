@@ -13,7 +13,7 @@ export const meta: MetaFunction = () => {
 
 const links = [
     { url: ("/"), label: "Home" },
-    { url: "https://discord.gg", label: "Discord", target: '_blank' },
+    { url: "https://discord.gg", label: "Discord" },
     { url: ("/terms"), label: "Terms of Service" },
     { url: ("/privacy"), label: "Privacy Policy" }
 ];
