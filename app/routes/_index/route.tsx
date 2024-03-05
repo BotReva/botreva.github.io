@@ -1,4 +1,4 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { MetaFunction, useHref } from "@remix-run/node";
 
 import Logo from "~/components/Logo";
 import Hero from "~/components/Hero";
@@ -14,8 +14,6 @@ import { Footer } from "~/components/adaptive-ui/Layout/Footer";
 export const meta: MetaFunction = () => {
   return [{ title: "Reva Bot" }];
 };
-
-import { useHref } from "@remix-run/react";
 
 const links = [
   { url: useHref("/"), label: "Home" },
