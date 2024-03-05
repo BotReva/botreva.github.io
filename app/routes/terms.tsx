@@ -1,4 +1,4 @@
-import type { MetaFunction, useHref } from "@remix-run/node";
+import type { MetaFunction } from "@remix-run/node";
 
 import Logo from "~/components/Logo";
 import Terms from "~/components/Terms";
@@ -12,10 +12,10 @@ export const meta: MetaFunction = () => {
 };
 
 const links = [
-  { url: useHref("/"), label: "Home" },
+  { url: ("/"), label: "Home" },
   { url: "https://discord.gg", label: "Discord" },
-  { url: useHref("/terms"), label: "Terms of Service" },
-  { url: useHref("/privacy"), label: "Privacy Policy" }
+  { url: ("/terms"), label: "Terms of Service" },
+  { url: ("/privacy"), label: "Privacy Policy" }
 ];
 
 export default function Index() {
