@@ -15,11 +15,13 @@ export const meta: MetaFunction = () => {
   return [{ title: "Reva Bot" }];
 };
 
+import { useHref } from "@remix-run/react";
+
 const links = [
-  { url: "/", label: "Home" },
+  { url: useHref("/"), label: "Home" },
   { url: "https://discord.gg", label: "Discord" },
-  { url: "/terms", label: "Terms of Service" },
-  { url: "/privacy", label: "Privacy Policy" }
+  { url: useHref("/terms"), label: "Terms of Service" },
+  { url: useHref("/privacy"), label: "Privacy Policy" }
 ];
 
 export default function Index() {

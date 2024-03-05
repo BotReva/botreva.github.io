@@ -19,11 +19,6 @@ export const links: LinksFunction = () => [
     href: "/favicon.ico",
     type: "image/ico",
   },
-  {
-    page: '/home'
-  },
-  { page: '/terms' },
-  { page: '/privacy' },
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];
 
