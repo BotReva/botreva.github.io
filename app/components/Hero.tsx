@@ -16,7 +16,7 @@ export default function CustomHero() {
       <div className={classes.buttons}>
         <Button
           component="a"
-          href="https://discord.com/invite"
+          href="/invite"
           target="_blank"
           rel="noopener noreferrer"
           size="lg"
@@ -25,9 +25,9 @@ export default function CustomHero() {
           Add to Server
         </Button>
         
-        {/*<Button
+        {<Button
           component="a"
-          href="https://discord.com/invite/revabot"
+          href="/discord"
           target="_blank"
           rel="noopener noreferrer"
           size="lg"
@@ -37,7 +37,7 @@ export default function CustomHero() {
           mr={20}
         >
           Join Server
-        </Button>*/}
+        </Button>}
       </div>
     </Container>
   );
